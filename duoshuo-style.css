@@ -1,0 +1,372 @@
+/*duoshuo*/
+ 
+#ds-thread #ds-reset .ds-sort {position: relative;}
+#ds-notify #ds-reset a.ds-logo {
+    width: 18px;
+    height: 14px;
+    background: none;
+    _background-image: none;
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: 12px;
+}
+#ds-notify {
+    position: fixed;
+    z-index: 9999;
+    max-width: 144px;
+    _width: 130px;
+    display: block;
+    float: none;
+    padding: 8px 12px;
+    background-color: #51aded;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #51aded;
+}
+#ds-notify #ds-reset ul.ds-notify-unread {
+    line-height: 150%;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+#ds-notify #ds-reset ul.ds-notify-unread li a{
+    color: #FFF;
+}
+ 
+#ds-wrapper #ds-reset .ds-unread-list li a{
+    color: #FFF;
+}
+#ds-wrapper #ds-reset .ds-unread-list li a:hover{
+    color: #FFF;
+}
+#ds-wrapper #ds-reset .ds-unread-list li a[rel~="author"] {
+    color: #FFF;
+}
+#ds-wrapper #ds-reset .ds-unread-list li {
+    position: relative;
+    margin: 0;
+    padding: 8px 0;
+    border-top: 1px solid #eee;
+    line-height: 1.5em;
+    color: #CDF0EE;
+}
+#ds-wrapper #ds-reset .ds-dialog-footer{
+    display: none;
+}
+#ds-wrapper #ds-reset h2 {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    color: #FFF;
+}
+#ds-wrapper #ds-reset .ds-dialog-inner {
+    width: 100%;
+    position: relative;
+    border: none;
+    background: #51aded none;
+    text-shadow: none;
+    box-shadow: none;
+}
+#ds-wrapper #ds-reset .ds-control-group input {
+    color: #777;
+    width: 100%;
+    font-size: 13px;
+    border: none;
+    padding: 4px 80px 6px 6px;
+    box-shadow: none;
+    background: #FFF;
+}
+#ds-thread {
+    margin: 0 auto;
+}
+#ds-thread #ds-reset .ds-post-button{
+    font-family: "Microsoft YaHei", 微软雅黑,"Microsoft JhengHei", 华文细黑,STHeiti,MingLiu;
+    position: absolute;
+    text-shadow: none;
+    font-weight: bold;
+    border-bottom-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border: none;
+    color: #FFF;
+    background-color: #51aded;
+    background-image: none;
+    box-shadow: none;
+    
+}
+#ds-thread #ds-reset .ds-post-button:hover{
+    background-color: #3fa4eb;
+    background-image: none;
+}
+#ds-thread #ds-reset .ds-post-button:hover {color: #FFF;}
+#ds-thread #ds-reset .ds-post-options {
+    border: 0px;
+    border-right: 0;
+    border-bottom-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    background: transparent;
+    margin-top: 12px;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper{
+    border: none;
+}
+#ds-thread #ds-reset .ds-powered-by a{
+    color: #CFCFCF;
+}
+.ds-recent-visitors img{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    padding: 2px;
+    border: 1px solid #CCC;
+    margin: 4px;
+}
+.ujian-hook {
+    margin-top: 40px;
+    border-left: 4px solid #51aded;
+    padding-top: 14px;
+    padding-left: 14px;
+    background: #E2E2E2;
+}
+#ds-thread #ds-reset .ds-highlight {
+color: #51aded !important;
+}
+#ds-thread #ds-reset .ds-user-name {
+    color: #D6D6D6;
+}
+#ds-thread #ds-reset a.ds-unread-comments-count:hover {
+background: #51aded;
+}
+#ds-thread #ds-reset .ds-paginator a:hover, #ds-thread #ds-reset .ds-paginator a.ds-current {
+font-weight: bold;
+color: #51aded;
+}
+#ds-thread #ds-reset .ds-post-like-count {
+color: #51aded;
+}
+ul#ds-recent-comments li.ds-comment a {
+display: inline;
+}
+ 
+ 
+#ds-smilies-tooltip .ds-smilies-container li{
+background: none;
+padding: 0;
+}
+#ds-smilies-tooltip ul.ds-smilies-tabs li {
+background: none;
+padding: 0;
+}
+#ds-thread #ds-reset #ds-bubble a {
+color: #51aded;
+}
+ 
+ul#ds-recent-comments li.ds-comment {
+background:none;
+}
+ul#ds-recent-comments li.ds-comment a {
+    color: #51aded;
+    background: none;
+    padding: 0;
+    line-height: 38px;
+    border-radius: 0;
+    box-shadow: none;
+}
+ul#ds-recent-comments li.ds-comment a:hover{
+    color: #51aded;
+}
+ul#ds-recent-comments li.ds-comment a {
+    display: inline;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper textarea {
+        position: relative;
+    z-index: 1;
+    border: 0;
+    border-bottom: none;
+    padding-right: 24px;
+    overflow: hidden;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    overflow: auto;
+    padding: 10px;
+    height: 120px;
+    min-height: 120px;
+    margin: 0;
+    resize: none;
+    color: #B3B3B3;
+    width: 100%;
+    min-width: 100%;
+    font-family: "STHeiti Light", 华文细黑,"Microsoft YaHei", 微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper textarea:focus {
+    color: #B3B3B3;
+ 
+}
+ 
+#ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a:active {
+color: #51aded;
+}
+#ds-thread #ds-reset a.ds-comment-context {
+color: #51aded;
+}
+#ds-thread #ds-reset a.ds-comment-context:hover {
+color: #51aded;
+}
+#ds-thread #ds-reset .ds-post-liked a.ds-post-likes {
+color: #51aded;
+}
+ 
+ 
+#ds-thread #ds-reset a.ds-unread-comments-count {
+display: none;
+background-color: #51aded;
+color: #FFFFFF !important;
+margin-right: 6px;
+padding: 1px 5px;
+font-weight: bold;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.4),0 1px 1px rgba(0, 0, 0, 0.3);
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+#ds-thread #ds-reset .ds-header {
+font-weight: bold;
+font-size: 14px;
+color: #FFF;
+line-height: 30px;
+padding: 0 12px;
+background: #51aded;
+}
+#ds-thread #ds-reset #ds-hot-posts {
+border: none;
+overflow: hidden;
+margin: 8px 0;
+padding: 0;
+_height: 100%;
+}
+#ds-thread #ds-reset #ds-hot-posts {
+overflow: hidden;
+margin: 8px 0;
+padding: 0;
+_height: 100%;
+background: #F3F3F3;
+}
+#ds-thread #ds-reset ul, #ds-thread #ds-reset ul li {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+.ds-sync{
+display:none !important;
+}
+#ds-thread #ds-reset .ds-post-self {
+    border-top: 0px;
+}
+#ds-thread #ds-reset li.ds-post {
+    border-top: 0px;
+}
+.ds-comments-tabs {
+    display: none !important;
+}
+#ds-thread #ds-reset .ds-sort {
+    z-index: 999;
+}
+.ds-post-likes, .ds-post-repost, .ds-post-report {
+    display: none !important;
+}
+#ds-thread #ds-reset ul.ds-children .ds-post-self {
+    padding-top: 30px;
+}
+ 
+#ds-thread #ds-reset .ds-textarea-wrapper {
+    background: #e6eaed; none;
+}
+#ds-thread #ds-reset .ds-post-toolbar{
+    box-shadow:none;
+}
+.ds-powered-by {
+    display: none;
+}
+/* 右上角 */
+#ds-thread #ds-reset .ds-account-control ul{
+    background: #e6eaed;
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+#ds-thread #ds-reset .ds-account-control ul li a{
+    border: none !important;
+    text-shadow: none !important;
+}
+#ds-thread #ds-reset .ds-post-self {
+    padding: 30px 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: "STHeiti Light", 华文细黑,"Microsoft YaHei", 微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+  
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-family: "STHeiti Light", 华文细黑,"Microsoft YaHei", 微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   font-family: "STHeiti Light", 华文细黑,"Microsoft YaHei", 微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-family: "STHeiti Light", 华文细黑,"Microsoft YaHei", 微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+}
+#ds-thread #ds-reset .ds-paginator a.ds-current,#ds-thread #ds-reset .ds-comments,#ds-thread #ds-reset .ds-paginator div.ds-border,#ds-thread #ds-reset .ds-paginator {
+    border: 0;
+}
+.ds-icon, .ds-icon-reply{
+    display: none !important;
+}
+#ds-thread #ds-reset .ds-comment-body a:hover, #ds-thread #ds-reset .ds-comment-body a:visited ,#ds-thread #ds-reset .ds-sort a:hover{
+    color: #51aded;
+}
+#ds-thread #ds-reset .ds-comment-body p{
+    line-height: 2em;
+    font-size: 16px;
+}
+.ds-comment-footer {
+    display: inline-block !important;
+    padding: 4px 14px !important;
+    background: #e6eaed!important;
+}
+#ds-thread #ds-reset .ds-comment-body {
+    padding-left: 70px;
+}
+#ds-thread #ds-reset .ds-comment-body p {
+    color: #000;
+}
+    /* for 480px or less */
+    @media screen and (max-width:720px) {
+        #ds-thread{
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+#ds-reset .ds-avatar img{
+    width:50px;height:50px; /* 设置图像的长和宽，这里要根据自己的评论框情况更改 */
+    border-radius: 27px;/* 设置图像圆角效果, 在这里我直接设置了超过 width/2 的像素，即为圆形了 */
+    -webkit-border-radius: 27px;/* 圆角效果：兼容 webkit 浏览器 */
+    -moz-border-radius:27px;
+    box-shadow: inset 0 -1px 0 #3333sf;/* 设置图像阴影效果 */
+    -webkit-box-shadow: inset 0 -1px 0 #3333sf;
+    -webkit-transition: 0.4s;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;/* 变化时间设置为 0.4 秒 (变化动作即为下面的图像旋转 360 度）*/
+    -moz-transition: -moz-transform 0.4s ease-out;
+}
+#ds-reset .ds-avatar img:hover{/* 设置鼠标悬浮在头像时的 CSS 样式 */
+    box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+    -webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+    transform: rotateZ(360deg);/* 图像旋转 360 度 */
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+}
