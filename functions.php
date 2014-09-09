@@ -16,4 +16,7 @@ if ( function_exists('register_sidebar') )
 		'before_title' => '<h3>',
 		'after_title' => '</h3>',
 	));
+	// 添加特色图像功能
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(750, 300, true); // 图片宽度与高度
 ?>

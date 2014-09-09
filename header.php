@@ -25,6 +25,8 @@
    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
    <script src="http://libs.baidu.com/bootstrap/2.0.4/js/bootstrap.min.js"></script>
  <script src="http://johnzhang-files.qiniudn.com/bootswatch.js"></script>
+ <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
  
  
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -38,7 +40,7 @@
   </head>
 <?php flush(); ?>
   <body>
-
+<div id="jv-loadingbar"></div>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -79,7 +81,7 @@ wp_list_categories('depth=1&title_li=&show_count=0&hide_empty=0&child_of=0'.$cur
               </ul>
             </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="你要找什么？">
         </div>
